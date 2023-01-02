@@ -1,0 +1,148 @@
+* {
+    margin: 0%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    height: 750px;
+    background-color: #f0f2f5;
+}
+
+.left {
+    float: left;
+
+    width: 50%;
+    height: auto;
+    background-color: #f0f2f5;
+}
+
+.left h1 {
+
+    padding: 0px 0px 0px 303px;
+    font-size: 60px;
+    color: #1877f2;
+}
+
+.leftp {
+    padding-left: 304px;
+    font-size: 29px;
+}
+
+.right {
+    float: left;
+    height: auto;
+    width: 50%;
+    background-color: #f0f2f5;
+
+}
+
+.p2 {
+    padding-left: 167px;
+}
+
+#mail {
+    line-height: 48px;
+    width: 376px;
+    padding-left: 10px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    color: #9595a0;
+}
+
+#pass {
+    line-height: 48px;
+    width: 376px;
+    padding-left: 10px;
+    font-size: 17px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    color: #9595a0;
+}
+
+#loginbutton {
+    line-height: 48px;
+    width: 391px;
+    padding-left: 10px;
+    font-size: 22px;
+    margin-top: 31px;
+    background-color: #1877f2;
+    color: #ffffff;
+    border-radius: 6px;
+    border: none;
+}
+
+#buttonna {
+    line-height: 48px;
+    width: 230px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin: 27px 0px;
+    background-color: #42b72a;
+    color: #ffffff;
+    border-radius: 6px;
+    border: none;
+}
+
+
+.form {
+    text-align: center;
+    background-color: #ffffff;
+    border: groove;
+    margin: 0px 300px -99px 124px;
+    padding: 20px 0px;
+    border-radius: 7px;
+    height: 345px;
+    line-height: 34px;
+    border: none;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.divft {
+    padding: 39px 320px 30px 329px;
+    background-color: #fff;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.footer {
+    color: #9595a0;
+
+
+}
+
+.list1 {
+    padding-left: 21px;
+    width: 100%;
+    margin-bottom: 14px;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.list1 li {
+    display: inline;
+}
+
+.list2 {
+    margin-top: 14px;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 21px;
+    line-height: 22px;
+
+}
+
+.list2 li {
+    display: inline;
+}
